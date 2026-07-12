@@ -4,7 +4,7 @@
 
 `algebraic structure → numerical algorithms → AI systems`
 
-I am a Principal Researcher at the **AI R&D Center, [Official Company Name]**
+I am a Principal Researcher at the **AI R&D Center, iTrix**
 and a Ph.D. Candidate in Mathematics at Seoul National University.
 
 I study how **algebraic structure and numerical linear algebra** can be used to
@@ -73,10 +73,13 @@ My previous research focused on:
 These remain important application domains for my current work on structured
 and solve-based learning.
 
-## ⌨ Working With
+## ⌨ Technical Practice
 
-`Python` · `PyTorch` · `JAX` · `NumPy/SciPy` · `BLAS/LAPACK`  
-`vLLM` · `llama.cpp` · `Core ML` · `Ray` · `Weights & Biases`
+- **Machine learning research:** Python, PyTorch, JAX
+- **Numerical computing:** NumPy/SciPy, BLAS/LAPACK, direct linear solvers
+- **LLM inference experimentation:** long-context serving, quantization,
+  GPU memory optimization, `vLLM`, and `llama.cpp`
+- **On-device ML:** Core ML and Apple Neural Engine experiments
 
 ## ⌁ Contact
 
