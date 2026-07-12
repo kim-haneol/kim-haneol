@@ -1,21 +1,84 @@
 # Haneol Kim
 
-**AI Researcher | Generative Models & Reinforcement Learning**
+**Principal Researcher | Mathematical AI & Efficient Computing**
 
-I am an AI researcher with a strong foundation in Mathematics (SNU). My research aims to bridge theoretical insights with practical innovations, applying **Generative Models** to solve complex, **Long-horizon Decision Making** problems.
+`algebraic structure → numerical algorithms → AI systems`
 
-### 🔭 Research Interests
-- **Generative Control:** Diffusion Models, Flow Matching for Trajectory Generation
-- **Scalable RL:** Goal-conditioned RL, Offline RL, Hierarchy
-- **Large Language Models:** Efficient Fine-tuning, Post-training (RLHF/DPO)
+I am a Principal Researcher at the **AI R&D Center, [Official Company Name]**
+and a Ph.D. Candidate in Mathematics at Seoul National University.
 
-### 🚧 Current Focus
-- **(Research)** Investigating **Flow Matching** in JAX for high-dimensional, long-horizon control tasks.
-- **(Work)** Optimizing LLM post-training pipelines and evaluating model alignment.
+I study how **algebraic structure and numerical linear algebra** can be used to
+reformulate expensive learning and inference procedures into direct, stable,
+and hardware-efficient computation.
 
-### 🛠 Research Stack
-- **Deep Learning:** JAX, PyTorch
-- **Scaling & Infra:** Ray, Lightning, WandB
+At work, I focus on **small language model fine-tuning, post-training,
+evaluation, and hardware-aware inference**.
 
----
-[Email](mailto:haneol.kijm@gmail.com) | [X](https://x.com/haneol_kijm)
+## ∑ Research Program
+
+My current research follows a common computational theme:
+
+> represent structure algebraically, reduce it to well-conditioned operators,
+> and replace repeated iteration with direct numerical computation.
+
+- **Algebraic and structured computation**
+  — representations of noncommutative and hypercomplex operations as
+  structured linear operators
+
+- **Realification and SPD reduction**
+  — transforming complex or structured operator problems into stable
+  real-valued linear algebra kernels
+
+- **Solve-based learning**
+  — inverse and resolvent formulations for implicit models, differentiation,
+  optimization, and learning
+
+- **Structure-preserving numerics**
+  — conservative discrete computation for dynamical systems and PDEs,
+  including integer-transfer formulations
+
+## λ Frameworks in Development
+
+- **AXIOM–ALH–CRE**  
+  An algebra-to-computation pipeline connecting structured algebraic
+  representations, realification, and SPD-based numerical kernels.
+
+- **FQNM**  
+  A structure-preserving numerical framework based on conservative integer
+  transfer, aimed at stable and efficient simulation of dynamical systems.
+
+Rather than treating these as separate projects, I view them as parts of a
+single program for turning mathematical structure into efficient computation.
+
+## ⚙ Language Model Systems
+
+I also work on practical systems for efficient language-model development and
+deployment:
+
+- Fine-tuning, post-training, and evaluation of small language models
+- Long-context local inference with `vLLM` and `llama.cpp`
+- Quantization and reasoning-model failure modes
+- Hardware-aware inference across GPUs and on-device accelerators
+- Local coding agents and reproducible evaluation pipelines
+
+## ↩ Earlier Work
+
+My previous research focused on:
+
+- Offline and goal-conditioned reinforcement learning
+- Hierarchical policies for long-horizon decision making
+- Flow matching and generative models for policy construction
+- Kernel and value-based methods for offline control
+
+These remain important application domains for my current work on structured
+and solve-based learning.
+
+## ⌨ Working With
+
+`Python` · `PyTorch` · `JAX` · `NumPy/SciPy` · `BLAS/LAPACK`  
+`vLLM` · `llama.cpp` · `Core ML` · `Ray` · `Weights & Biases`
+
+## ⌁ Contact
+
+[Email](mailto:haneol.kijm@gmail.com) ·
+[X](https://x.com/haneol_kijm)
