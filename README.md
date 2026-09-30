@@ -37,18 +37,21 @@ My current research follows a common computational theme:
   — conservative discrete computation for dynamical systems and PDEs,
   including integer-transfer formulations
 
-## λ Frameworks in Development
+## λ Current Research
 
-- **AXIOM–ALH–CRE**  
-  An algebra-to-computation pipeline connecting structured algebraic
-  representations, realification, and SPD-based numerical kernels.
+- **AXIOM tensor · Structured tensor and model compression**  
+  I investigate how mathematical structure can guide tensor representations
+  and model compression, connecting algebraic ideas to practical numerical
+  algorithms and hardware-aware computation.
 
-- **FQNM**  
-  A structure-preserving numerical framework based on conservative integer
-  transfer, aimed at stable and efficient simulation of dynamical systems.
+- **SPADES · Foundations of probabilistic inference**  
+  I am reformulating SPADES as part of my mathematics Ph.D. dissertation,
+  with a focus on the mathematical foundations of probabilistic inference.
+  Extending this work to time-dependent settings is a future research direction.
 
-Rather than treating these as separate projects, I view them as parts of a
-single program for turning mathematical structure into efficient computation.
+These projects continue my broader program of turning mathematical structure
+into efficient computation, with attention to both theoretical foundations
+and practical AI systems.
 
 ## ⚙ Language Model Systems
 
@@ -61,17 +64,28 @@ deployment:
 - Hardware-aware inference across GPUs and on-device accelerators
 - Local coding agents and reproducible evaluation pipelines
 
-## ↩ Earlier Work
+## ↩ Background & Interests
 
-My previous research focused on:
+My earlier work includes **topological data analysis of cardiovascular data**
+and research in reinforcement learning:
 
 - Offline and goal-conditioned reinforcement learning
 - Hierarchical policies for long-horizon decision making
 - Flow matching and generative models for policy construction
 - Kernel and value-based methods for offline control
 
-These remain important application domains for my current work on structured
-and solve-based learning.
+These experiences continue to inform my work on structured and solve-based
+learning. My long-term interests include **world models and robotics**,
+building on earlier questions about learning, planning, and decision making.
+
+## ∈ Publications
+
+- **Kernel Value Regression in Offline Reinforcement Learning**  
+  NeurIPS 2026, Main Track · Accepted as a poster
+
+- **[Topological Data Analysis of Coronary Plaques Demonstrates the Natural History of Coronary Atherosclerosis](https://doi.org/10.1016/j.jcmg.2020.11.009)**  
+  Hwang D, Kim HJ, et al. · *JACC: Cardiovascular Imaging*,
+  14(7):1410–1421, 2021
 
 ## ⌨ Technical Practice
 
