@@ -60,9 +60,11 @@ deployment:
 
 - Fine-tuning, post-training, and evaluation of small language models
 - Long-context local inference with `vLLM` and `llama.cpp`
-- Quantization and reasoning-model failure modes
 - Hardware-aware inference across GPUs and on-device accelerators
 - Local coding agents and reproducible evaluation pipelines
+
+I am interested in how numerical properties interact with hardware constraints
+in quantization, long-context inference, and on-device environments.
 
 ## ↩ Background & Interests
 
@@ -86,14 +88,6 @@ building on earlier questions about learning, planning, and decision making.
 - **[Topological Data Analysis of Coronary Plaques Demonstrates the Natural History of Coronary Atherosclerosis](https://doi.org/10.1016/j.jcmg.2020.11.009)**  
   Hwang D, Kim HJ, et al. · *JACC: Cardiovascular Imaging*,
   14(7):1410–1421, 2021
-
-## ⌨ Technical Practice
-
-- **Machine learning research:** Python, PyTorch, JAX
-- **Numerical computing:** NumPy/SciPy, BLAS/LAPACK, direct linear solvers
-- **LLM inference experimentation:** long-context serving, quantization,
-  GPU memory optimization, `vLLM`, and `llama.cpp`
-- **On-device ML:** Core ML and Apple Neural Engine experiments
 
 ## ⌁ Contact
 
