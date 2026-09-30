@@ -1,4 +1,4 @@
-# Haneol Kim
+# Kim Haneol
 
 **Principal Researcher | Mathematical AI & Efficient Computing**
 
