@@ -16,26 +16,12 @@ evaluation, and hardware-aware inference**.
 
 ## ∑ Research Program
 
-My current research follows a common computational theme:
+My research explores how mathematical structure can guide the design of computational models and numerical algorithms, with attention to their approximation properties, numerical stability, and practical cost.
 
-> represent structure algebraically, reduce it to well-conditioned operators,
-> and replace repeated iteration with direct numerical computation.
-
-- **Algebraic and structured computation**
-  — representations of noncommutative and hypercomplex operations as
-  structured linear operators
-
-- **Realification and SPD reduction**
-  — transforming complex or structured operator problems into stable
-  real-valued linear algebra kernels
-
-- **Solve-based learning**
-  — inverse and resolvent formulations for implicit models, differentiation,
-  optimization, and learning
-
-- **Structure-preserving numerics**
-  — conservative discrete computation for dynamical systems and PDEs,
-  including integer-transfer formulations
+- **Structured representations** — using algebraic structure to represent operators and tensors for efficient computation
+- **Numerical methods for learning** — studying how linear solves, optimization, and approximation interact in model learning and compression
+- **Probabilistic formulations** — connecting numerical problems with inference, uncertainty, and partial observations
+- **Structure-preserving computation** — exploring how discretization and computational constraints shape models of physical and dynamical systems
 
 ## λ Current Research
 
